@@ -4,7 +4,7 @@ const getUsers = (seacrh, page = 1, options) => {
     options
   )
     .then((res) => res.json())
-    .catch((err) => console.log("rr", err));
+    .catch((err) => console.log(err));
 };
 
 export { getUsers };
